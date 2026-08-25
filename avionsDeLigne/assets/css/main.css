@@ -1,12 +1,14 @@
+
 *{
-    margin: 0 0 0 3;
+    margin: 0;
     padding: 0;
+    list-style: none;
+    text-decoration: none;
 }
 body{
     background-color: #222222;
     color: #FFFFFF;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-
 
 }
 h1,h2,h3{
@@ -29,45 +31,71 @@ li{
 
 table{
     border-collapse: collapse;
-    border-spacing: 0;
     border: 3px solid #555;
     padding: 20%;
-    width: 95%;
-    max-width: 1000px;
     margin: 20px auto;
-
-    width: 50%;
-    margin:auto;
-    
     color: black;
     background-color: #fff ;
     outline: 5px solid white;
-    
-
 }
 
 th, td{
 padding: 1em;
-
 }
 th{
     background-color: #d6d6d6;
     font-weight: bold;
     text-align: center;
+    border: 1px solid ;
+    margin: 20%;
 }
 td{
     border-bottom: 1px solid #000000;
     text-align: center;
 }
 
-th{
-    border: 1px solid ;
-    margin: 20%;
-   
+tbody tr:nth-child(even) {
+    background-color: #dadada;
 }
-tbody tr:nth-child(even),tr:nth-child(even) {
-    background-color: #ededed;
+section{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    gap: 30px 40px;
+    padding: 30px;
+    background-color: #FFFFFF;
+    width: fit-content;
+    justify-content: center;
+    margin: 50px auto;
+
 }
 
+figure{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
 
-
+section img{
+     border: 1px solid #b0b0b0bb;
+     padding: 4px;
+display: inline-block;
+    width: 230px;
+    height: 150px;
+    object-fit: cover;
+    display: block;
+}
+figcaption{
+    margin-top: 12px;
+    font-weight: bold;
+    font-size: 1.15rem;
+    color: #000000;
+}
+li:hover{
+    text-decoration: underline;
+}
+@media (max-width: 768px){
+    header{
+        flex-direction: column;
+    }
+}
