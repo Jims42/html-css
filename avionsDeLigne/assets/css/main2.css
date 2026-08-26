@@ -1,0 +1,35 @@
+:root {
+  --bgbody: #222222;
+  --txtcolor: #fff;
+  --titlecolor: #ccffcc;
+  --linkcolor: #ccccff;
+  --fonttxt: "verdana";
+  --fonttittle:"impact";
+}
+body{
+margin: 0px;
+padding: 0px;
+background-color: var(--bgbody);
+color: var(--txtcolor);
+}
+h1{
+    font-family: var(--fonttittle);
+    text-align: center;
+    color: var(--titlecolor);
+}
+.journal h2{
+    font-family: var(--fonttittle);
+    color: var(--titlecolor);
+    height: 50px;
+    border: 1px dotted var(--titlecolor);
+}
+h2{
+    color: var(--titlecolor);
+    font-family: var(--fonttxt);
+    text-transform: uppercase;
+    text-align: center;
+}
+#prefere{
+    width: auto;
+    height: 150px;
+}
