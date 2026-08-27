@@ -66,6 +66,7 @@ main {
   background-color: #bbccff;
   padding: 0 10px;
 }
+
 body {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -122,4 +123,4 @@ section {
   width: 40%;
   background-color: white;
   padding: 5px;
-}
+} 
