@@ -71,4 +71,4 @@ C'est l'une des lignes de code les plus puissantes et magiques en CSS Grid ! Ell
 
 * Sur un petit écran (téléphone) : Les colonnes passent automatiquement l'une sous l'autre pour faire 100% de large (chacune faisant au moins ses 200px ou s'adaptant à l'écran).
 ### En résumé : 
-C'est le $${\color{green}\text{mot}}$$ cheat-code ultime pour faire des galeries d'images ou des listes de cartes (comme des cartes de produits sur un site e-commerce) qui s'adaptent à n'importe quel écran comme par magie.
+C'est le $${\color{green}\text{cheat-code}}$$ ultime pour faire des galeries d'images ou des listes de cartes (comme des cartes de produits sur un site e-commerce) qui s'adaptent à n'importe quel écran comme par magie.
