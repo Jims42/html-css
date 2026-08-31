@@ -8,9 +8,7 @@ body{
 }
 header{
     background-color: #e64b3c;
-    height: 100px;
-    display: flex;
-    justify-content:center ;
+    padding: 32px;
     align-items: center;
 
 }
@@ -20,15 +18,14 @@ h1{
 }
 main{
     margin: 30px;
-
-}
-section{
     display: flex;
     align-items: center;
     margin-left: 10%;
     margin-right: 10%;
     gap: 15px;
+
 }
+
 img{
     width: 100%;
 }
@@ -36,9 +33,16 @@ h2{
     color: #e64b3c;
 }
 .card{
-
+    display: flex;
+    flex-wrap:wrap ;
     background-color:  white;
 }
-p,figcaption{
+article img{
+    order: -1;
+}
+p{
     padding: 1em 1.5em;
+}
+h2,p{
+    padding: 10px;
 }
