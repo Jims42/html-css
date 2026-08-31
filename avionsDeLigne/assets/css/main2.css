@@ -7,8 +7,8 @@
   --fonttittle:"impact";
 }
 body{
-margin: 0px;
-padding: 0px;
+margin: 0;
+padding: 0;
 background-color: var(--bgbody);
 color: var(--txtcolor);
 }
@@ -20,7 +20,7 @@ h1{
 .journal h2{
     font-family: var(--fonttittle);
     color: var(--titlecolor);
-    height: 50px;
+    padding-bottom: 10px;
     border: 1px dotted var(--titlecolor);
 }
 h2{
@@ -40,10 +40,34 @@ li{
     padding: 5px;
     border: 1px solid var(--titlecolor);
 }
-#boeing{
+.galerie{
+    border: 2px solid rgb(138, 34, 34);
+    border-radius: 12px;
+    padding: 5px 10px 10px 10px;
+    width: 60%;
+    margin: 10px auto;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: wrap-reverse;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.av{
+    width: 250px;
+    height: 150px;
+    border-radius: 12px;
+}
+.h3-av{
+    width: 100%;
+    margin: 0;
+    margin-top: -23px;
+    margin-bottom: -7px;
+    margin-left: 3px;
+    font-weight: normal;
+    font-size: 16px;
+}
+.h3-av span{
+    background-color: #222;
+    padding: 0px 5px;
 
 }
