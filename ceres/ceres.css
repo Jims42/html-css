@@ -1,0 +1,47 @@
+body{
+    font-family: Georgia, Verdana, Geneva, Tahoma, sans-serif;
+    
+    
+}
+h1 span:nth-child(2),
+h1 span:nth-child(3),
+h1 span:nth-child(4) {
+    border-top: 1px solid currentColor;
+    border-bottom: 1px solid currentColor;
+}
+
+header{
+    text-align: center;
+    h1{
+       display: flex;
+        width: max-content;
+        margin: 20px auto;
+        padding: 10px;
+        text-transform: uppercase;
+        span:nth-child(1){
+            display: inline-flex;
+            color: #36A23E;
+            border: 1px solid currentColor;
+            border-right: none;
+        }
+        span:nth-child(2){
+            display: inline-flex;
+            color: #FF6633;
+        }span:nth-child(3){
+            display: inline-block;
+            color: #CC0066;
+        }
+        span:nth-child(4){
+            color: #36A23E;
+        }
+        span:nth-child(5){
+            color: #FF6633;
+            border: 1px solid currentColor;
+            border-left:none ;
+        }
+        img{
+        margin: 50%;
+        
+        }
+    }
+}
