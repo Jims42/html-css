@@ -1,0 +1,50 @@
+:root {
+  --bgblock: #5e5c5c;
+  --titrecolor: #0000ff;
+  --border: 2px solid #0000ff;
+}
+p,ul,
+thead,
+header {
+  border: var(--border);
+  background-color: var(--bgblock);
+}
+p {
+  padding: 20px;
+}
+ul{
+    padding: 20px 40px;
+}
+span {
+  text-decoration: underline;
+}
+h1,
+h2,
+span {
+  color: var(--titrecolor);
+}
+h1,
+h2,
+thead {
+  text-transform: uppercase;
+
+ 
+}
+table {
+  border: var(--border);
+}
+th,
+td {
+  border: var(--border);
+}
+img {
+  width: 50px;
+  height: 30px;
+  padding: 20px 0;
+}
+#header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
