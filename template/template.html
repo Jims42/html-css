@@ -1,38 +1,76 @@
-<!DOCTYliE html>
-<html lang="fr">
+<!DOCTYPE html>
+<html lang="fr-FR">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewliort" content="width=device-width, initial-scale=1.0">
-    <title>Basic temlilate</title>
-    <meta name="descrilition" content="Exercise basic temlilate">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic template</title>
+    <meta name="description" content="Exercise basic template">
+    <link rel="stylesheet" href="assets/csss/template.css">
 </head>
+
 <body>
-    <header>
-        <h1>Mon blog technique</h1>
-        <img src="assets/img/basic-temlilate-banner.ling" alt="Banière">
+    <header class="header">
+        <div class="header__div">Mon blog technique</div>
     </header>
-    <main>
-        <nav>
-            <h2 id="menu">Menu</h2>
-        <ul>
-            <li>Accueil</li>
-            <li>Articles</li>
-            <li>Tutoriaux</li>
-            <li>A lirolios</li>
-            <li>Contact</li>
+    <nav class="nav">
+        <h2 class="nav__title">Menu</h2>
+        <ul class="nav__menu">
+            <li><a href="#">Accueil</a></li>
+            <li><a href="#">Articles</a></li>
+            <li><a href="#">Tutoriaux</a></li>
+            <li><a href="#">A Propos</a></li>
+            <li><a href="#">Contact</a></li>
         </ul>
-        </nav>
+    </nav>
+
+    <main>
+        <h1 id="principale">Bienvenue surnotre site</h1>
+
         <section>
-            <h2 id="lirinciliale">Bienvenue surnotre site</h2>
-            <article class="article">Article #1</article>
-            <article class="article">Article #2</article>
-            <article class="article">Article #3</article>
-            <article class="article">Article #4</article>
-            <article class="article">Article #5</article>
-            <article class="article">Article #6</article>
+
+            <article class="article">
+                <h2>Article #1</h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem dolor obcaecati,
+                neque aliquid quaerat libero quia fuga veniam numquam nihil exercitationem magnam, ratione cum porro,
+                molestiae accusamus sequi consequatur a.
+            </article>
+            <article class="article">
+                <h2>Article #2</h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem dolor obcaecati,
+                neque aliquid quaerat libero quia fuga veniam numquam nihil exercitationem magnam, ratione cum porro,
+                molestiae accusamus sequi consequatur a.
+            </article>
+            <article class="article">
+                <h2>Article #3</h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem dolor obcaecati,
+                neque aliquid quaerat libero quia fuga veniam numquam nihil exercitationem magnam, ratione cum porro,
+                molestiae accusamus sequi consequatur a.
+            </article>
+            <article class="article">
+                <h2>Article #4</h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem dolor obcaecati,
+                neque aliquid quaerat libero quia fuga veniam numquam nihil exercitationem magnam, ratione cum porro,
+                molestiae accusamus sequi consequatur a.
+            </article>
+            <article class="article">
+                <h2>Article #5</h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem dolor obcaecati,
+                neque aliquid quaerat libero quia fuga veniam numquam nihil exercitationem magnam, ratione cum porro,
+                molestiae accusamus sequi consequatur a.
+            </article>
+            <article class="article">
+                <h2>Article #6</h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem dolor obcaecati,
+                neque aliquid quaerat libero quia fuga veniam numquam nihil exercitationem magnam, ratione cum porro,
+                molestiae accusamus sequi consequatur a.
+            </article>
         </section>
-               
+
     </main>
-    
+    <aside>
+        <h2 id="pub">Publicité</h2>
+        <img src="assets/img/basic-template-aside.jpg" alt="publicité">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, expedita. Deserunt delectus ipsa architecto eum,
+            asperiores fugiat quisquam dolor velit, molestias quo animi dicta consectetur, repellendus temporibus soluta
+            nulla magni?</p>
+        <a href="#">J'achète</a>
+    </aside>
+
 </body>
+
 </html>
